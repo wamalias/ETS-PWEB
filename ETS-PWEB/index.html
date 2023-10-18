@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - codingnepalweb.com -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/myCss.css">
+    <title>WAS Library</title> 
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark text-white">
+        <div class="container-fluid justify-content-end">
+          <!-- Links -->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#collection">Collection</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#news">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#register">Registration</a>
+            </li>
+          </ul>
+        </div>  
+    </nav>
+
+    <section id="home">
+        <div class="container p-5 my-5 bg-dark text-white justify-content-start">
+            <h2>WAS Library</h2>
+        </div>
+        
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+              <button title="0" type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+              <button title="1" type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            </div>
+            
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/Library2.jpg" alt="Library-1" class="d-block" style="width:100%; height:600px">
+                <div class="carousel-caption">
+                  <h3>A room without books is like a body without a soul</h3>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/Library.jpeg" alt="Library-2" class="d-block" style="width:100%; height:600px">
+                <div class="carousel-caption">
+                  <h3>A reader lives a thousand lives before he dies</h3>
+                </div> 
+              </div>
+            </div>
+            
+            <!-- Left and right controls/icons -->
+            <button title="prev" class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button title="next" class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+    </section>
+
+    <section class="h-100 bg-dark text-white" id="collection">
+        <div class="row">
+            <div class="col-lg-7 mx-auto text-center mb-4">
+              <h5 class="fw-light fs-3 fs-lg-5 lh-sm mb-3">Our Collection</h5>
+              <p class="mb-3">You can find many books here, with many genres, and many authors</p>
+            </div>
+        </div>
+        <h3>By Genre</h3>
+        <div id="preview" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card" style="width:300px">
+                        <img class="card-img-top" src="images/Conan.jpg" alt="Card image" style="width:300px; height:400px">
+                        <div class="card-body">
+                          <h4 class="card-title">Komik</h4>
+                          <a href="#" class="btn btn-primary">See Collection</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card" style="width:300px">
+                        <img class="card-img-top" src="images/pulang.jpg" alt="Card image" style="width:300px; height:400px">
+                        <div class="card-body">
+                          <h4 class="card-title">Novel</h4>
+                          <a href="#" class="btn btn-primary">See Collection</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card" style="width:300px">
+                        <img class="card-img-top" src="images/jurnal.png" alt="Card image" style="width:300px; height:400px">
+                        <div class="card-body">
+                          <h4 class="card-title">Jurnal Ilmiah</h4>
+                          <a href="#" class="btn btn-primary">See Collection</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card" style="width:300px">
+                        <img class="card-img-top" src="images/self-help.jpg" alt="Card image" style="width:300px; height:400px">
+                        <div class="card-body">
+                          <h4 class="card-title">Self Improvement</h4>
+                          <a href="#" class="btn btn-primary">See Collection</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card" style="width:300px">
+                        <img class="card-img-top" src="images/history.jpeg" alt="Card image" style="width:300px; height:400px">
+                        <div class="card-body">
+                          <h4 class="card-title">Sejarah</h4>
+                          <a href="#" class="btn btn-primary">See Collection</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card" style="width:300px">
+                        <img class="card-img-top" src="images/bisnis.jpeg" alt="Card image" style="width:300px; height:400px">
+                        <div class="card-body">
+                          <h4 class="card-title">Bisnis</h4>
+                          <a href="#" class="btn btn-primary">See Collection</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card" style="width:300px">
+                        <img class="card-img-top" src="images/teknologi.jpeg" alt="Card image" style="width:300px; height:400px">
+                        <div class="card-body">
+                          <h4 class="card-title">Teknologi</h4>
+                          <a href="#" class="btn btn-primary">See Collection</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card" style="width:300px">
+                        <img class="card-img-top" src="images/anak.jpeg" alt="Card image" style="width:300px; height:400px">
+                        <div class="card-body">
+                          <h4 class="card-title">Dunia Anak</h4>
+                          <a href="#" class="btn btn-primary">See Collection</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card" style="width:300px">
+                        <img class="card-img-top" src="images/biografi.jpg" alt="Card image" style="width:300px; height:400px">
+                        <div class="card-body">
+                          <h4 class="card-title">Biografi</h4>
+                          <a href="#" class="btn btn-primary">See Collection</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card" style="width:300px">
+                        <img class="card-img-top" src="images/horor.jpeg" alt="Card image" style="width:300px; height:400px">
+                        <div class="card-body">
+                          <h4 class="card-title">Horor</h4>
+                          <a href="#" class="btn btn-primary">See Collection</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card" style="width:300px">
+                        <img class="card-img-top" src="images/scifi.jpeg" alt="Card image" style="width:300px; height:400px">
+                        <div class="card-body">
+                          <h4 class="card-title">Sci-Fi</h4>
+                          <a href="#" class="btn btn-primary">See Collection</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card" style="width:300px">
+                        <img class="card-img-top" src="images/medical.jpeg" alt="Card image" style="width:300px; height:400px">
+                        <div class="card-body">
+                          <h4 class="card-title">Medical</h4>
+                          <a href="#" class="btn btn-primary">See Collection</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card" style="width:300px">
+                        <img class="card-img-top" src="images/kimia.jpeg" alt="Card image" style="width:300px; height:400px">
+                        <div class="card-body">
+                          <h4 class="card-title">Kimia</h4>
+                          <a href="#" class="btn btn-primary">See Collection</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card" style="width:300px">
+                        <img class="card-img-top" src="images/fisika.jpeg" alt="Card image" style="width:300px; height:400px">
+                        <div class="card-body">
+                          <h4 class="card-title">Fisika</h4>
+                          <a href="#" class="btn btn-primary">See Collection</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card" style="width:300px">
+                        <img class="card-img-top" src="images/biologi.jpeg" alt="Card image" style="width:300px; height:400px">
+                        <div class="card-body">
+                          <h4 class="card-title">Biologi</h4>
+                          <a href="#" class="btn btn-primary">See Collection</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Left and right controls/icons -->
+            <button title="prev" class="carousel-control-prev" type="button" data-bs-target="#preview" data-bs-slide="prev" >
+                <span class=".carousel-control-prev-icon"></span>
+              </button>
+              <button title="next" class="carousel-control-next" type="button" data-bs-target="#preview" data-bs-slide="next">
+                <span class=".carousel-control-prev-icon"></span>
+              </button>
+          </div>
+          <h3>By Author</h3>
+        <div id="preview-author" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card" style="width:300px">
+                        <img class="card-img-top" src="images/dewi.jpeg" alt="Card image" style="width:300px; height:400px">
+                        <div class="card-body">
+                          <h4 class="card-title">Dewi Lwstari</h4>
+                          <a href="#" class="btn btn-primary">See Collection</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card" style="width:300px">
+                        <img class="card-img-top" src="images/andrea.jpeg" alt="Card image" style="width:300px; height:400px">
+                        <div class="card-body">
+                          <h4 class="card-title">Andrea Hirata</h4>
+                          <a href="#" class="btn btn-primary">See Collection</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card" style="width:300px">
+                        <img class="card-img-top" src="images/patoer.jpeg" alt="Card image" style="width:300px; height:400px">
+                        <div class="card-body">
+                          <h4 class="card-title">Pramudya Ananta Toer</h4>
+                          <a href="#" class="btn btn-primary">See Collection</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card" style="width:300px">
+                        <img class="card-img-top" src="images/pidi.jpeg" alt="Card image" style="width:300px; height:400px">
+                        <div class="card-body">
+                          <h4 class="card-title">Pidi Baiq</h4>
+                          <a href="#" class="btn btn-primary">See Collection</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card" style="width:300px">
+                        <img class="card-img-top" src="images/rowling.jpeg" alt="Card image" style="width:300px; height:400px">
+                        <div class="card-body">
+                          <h4 class="card-title">J. K. Rowling</h4>
+                          <a href="#" class="btn btn-primary">See Collection</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card" style="width:300px">
+                        <img class="card-img-top" src="images/tereliye.jpeg" alt="Card image" style="width:300px; height:400px">
+                        <div class="card-body">
+                          <h4 class="card-title">Tere Liye</h4>
+                          <a href="#" class="btn btn-primary">See Collection</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Left and right controls/icons -->
+            <button title="prev" class="carousel-control-prev" type="button" data-bs-target="#preview-author" data-bs-slide="prev" >
+                <span class="carousel-dark .carousel-control-prev-icon"></span>
+              </button>
+              <button title="next" class="carousel-control-next" type="button" data-bs-target="#preview-author" data-bs-slide="next">
+                <span class="carousel-dark .carousel-control-prev-icon"></span>
+              </button>
+          </div>
+    </section>
+
+    <section class="h-100 bg-dark text-white" id="news">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7 mx-auto text-center mb-4">
+              <h5 class="fw-light fs-3 fs-lg-5 lh-sm mb-3">News and Information</h5>
+              <p class="mb-3">Start your day with reading a new information here</p>
+            </div>
+          </div>
+          <div class="row flex-center h-100">
+            <div class="col-xl-9">
+              <div class="carousel slide" id="carouselEvents" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <div class="row h-100 justify-content-center">
+                      <div class="col-md-6 mb-4">
+                        <div class="card h-100 shadow px-2 px-lg-3 card-span pt-4">
+                          <div class="text-center text-md-start card-hover">
+                            <div class="card-body">
+                              <div class="d-flex align-items-center"><span class="badge bg-soft-primary text-primary fs--1 fw-light p-3 rounded-1"><span class="fw-medium fs-1 mb-2">23</span><br>Dec</span>
+                                <h6 class="fw-light fs-1 fs-lg-2 text-start ms-3">Pameran Buku Terbesar di Surabaya</h6>
+                              </div>
+                              <p class="mt-4 mb-md-0 mb-lg-3 fw-light lh-base text-start">WBB, pameran buku terbesar kini kembali diadakan. Pada gelaran kali ini, ada ratusan ribu buku ...</p>
+                              <div class="d-flex flex-between-center">
+                                <div class="d-flex align-items-center"><a class="btn btn-lg ps-0 text-primary fw-light fs--1" href="#" role="button">Read more
+                                    <svg class="bi bi-arrow-right-short" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" viewBox="0 0 16 16">
+                                      <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"></path>
+                                    </svg></a></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 mb-4">
+                        <div class="card h-100 shadow px-2 px-lg-3 card-span pt-4">
+                          <div class="text-center text-md-start card-hover">
+                            <div class="card-body">
+                              <div class="d-flex align-items-center"><span class="badge bg-soft-primary text-primary fs--1 fw-light p-3 rounded-1"><span class="fw-medium fs-1 mb-2">17</span><br>Mar</span>
+                                <h6 class="fw-light fs-1 fs-lg-2 text-start ms-3">Top 10 Buku Bulan Maret Announcement</h6>
+                              </div>
+                              <p class="mt-4 mb-md-0 mb-lg-3 fw-light lh-base text-start">Hai Hai Hai.......
+                                kini saatnya kami mengumumkan 10 buku teratas favorit pengunjung WAS Library ...
+                              </p>
+                              <div class="d-flex flex-between-center">
+                                <div class="d-flex align-items-center"><a class="btn btn-lg ps-0 text-primary fw-light fs--1" href="#" role="button">Read more
+                                    <svg class="bi bi-arrow-right-short" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" viewBox="0 0 16 16">
+                                      <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"></path>
+                                    </svg></a></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="10000">
+                    <div class="row h-100 justify-content-center">
+                      <div class="col-md-6 mb-4">
+                        <div class="card h-100 shadow px-2 px-lg-3 card-span pt-4">
+                          <div class="text-center text-md-start card-hover">
+                            <div class="card-body">
+                              <div class="d-flex align-items-center"><span class="badge bg-soft-primary text-primary fs--1 fw-light p-3 rounded-1"><span class="fw-medium fs-1 mb-2">23</span><br>Dec</span>
+                                <h6 class="fw-light fs-1 fs-lg-2 text-start ms-3">Penmberlakuan Peraturan Baru WAS Library</h6>
+                              </div>
+                              <p class="mt-4 mb-md-0 mb-lg-3 fw-light lh-base text-start">Menindaklanjuti permasalahan parkir pengunjung WAS Library beberapa waktu terakhir ...</p>
+                              <div class="d-flex flex-between-center">
+                                <div class="d-flex align-items-center"><a class="btn btn-lg ps-0 text-primary fw-light fs--1" href="#" role="button">Read more
+                                    <svg class="bi bi-arrow-right-short" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" viewBox="0 0 16 16">
+                                      <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"></path>
+                                    </svg></a></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 mb-4">
+                        <div class="card h-100 shadow px-2 px-lg-3 card-span pt-4">
+                          <div class="text-center text-md-start card-hover">
+                            <div class="card-body">
+                              <div class="d-flex align-items-center"><span class="badge bg-soft-primary text-primary fs--1 fw-light p-3 rounded-1"><span class="fw-medium fs-1 mb-2">17</span><br>Mar</span>
+                                <h6 class="fw-light fs-1 fs-lg-2 text-start ms-3">Kemanakah Aku Harus Membawa Buku Lamaku?</h6>
+                              </div>
+                              <p class="mt-4 mb-md-0 mb-lg-3 fw-light lh-base text-start">Apakah kamu punya buku lama yang sudah tidak terbaca? Apakah kamu bingung bukunya lebih baik ...</p>
+                              <div class="d-flex flex-between-center">
+                                <div class="d-flex align-items-center"><a class="btn btn-lg ps-0 text-primary fw-light fs--1" href="#" role="button">Read more
+                                    <svg class="bi bi-arrow-right-short" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" viewBox="0 0 16 16">
+                                      <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"></path>
+                                    </svg></a></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- end of .container-->
+      </section>
+
+      <section class="h-100 bg-dark text-white" id="contact">
+          <div class="contact-page section">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="section-heading">
+                    <h2>Contact Us</h2>
+                    <h5>Get In Touch With Our Librarian</h5>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="item phone">
+                        <img src="images/phone-icon.png" alt="" style="max-width: 52px;">
+                        <h6>089-888-627-189<br><span>Phone Number</span></h6>
+                      </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <div class="item email">
+                        <img src="images/email-icon.png" alt="" style="max-width: 52px;">
+                        <h6>info@was-library.co.id<br><span>Business Email</span></h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div id="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12469.776493332698!2d-80.14036379941481!3d25.907788681148624!2m3!1f357.26927939317244!2f20.870722720054623!3f0!3m2!1i1024!2i768!4f35!3m3!1m2!1s0x88d9add4b4ac788f%3A0xe77469d09480fcdb!2sSunny%20Isles%20Beach!5e1!3m2!1sen!2sth!4v1642869952544!5m2!1sen!2sth" width="100%" height="500px" frameborder="0" style="border:0; border-radius: 10px; box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);" allowfullscreen=""></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <section class="h-100 bg-dark text-white" id="register">
+        <div class="container py-5 h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col">
+              <div class="card card-registration my-4">
+                <div class="row g-0">
+                  <div class="col-xl-6 d-none d-xl-block">
+                    <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/img4.webp"
+                      alt="Sample photo" class="img-fluid"
+                      style="border-top-left-radius: .25rem; border-bottom-left-radius: .25rem;" />
+                  </div>
+                  <div class="col-xl-6">
+                    <div class="card-body p-md-5 text-black">
+                      <h3 class="mb-5 text-uppercase">Registration Form</h3>
+      
+                      <div class="row">
+                        <div class="col-md-6 mb-4">
+                          <div class="form-outline">
+                            <input type="text" id="form3Example1m" class="form-control form-control-lg" />
+                            <label class="form-label" for="form3Example1m">First name</label>
+                          </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                          <div class="form-outline">
+                            <input type="text" id="form3Example1n" class="form-control form-control-lg" />
+                            <label class="form-label" for="form3Example1n">Last name</label>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="form-outline mb-4">
+                        <input type="text" id="form3Example8" class="form-control form-control-lg" />
+                        <label class="form-label" for="form3Example8">Date of Birth</label>
+                      </div>
+      
+                      <div class="form-outline mb-4">
+                        <input type="text" id="form3Example8" class="form-control form-control-lg" />
+                        <label class="form-label" for="form3Example8">Address</label>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-md-6 mb-4">
+                          <div class="form-outline">
+                            <input type="text" id="form3Example1m" class="form-control form-control-lg" />
+                            <label class="form-label" for="form3Example1m">Subdistrict</label>
+                          </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                          <div class="form-outline">
+                            <input type="text" id="form3Example1n" class="form-control form-control-lg" />
+                            <label class="form-label" for="form3Example1n">District</label>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-6 mb-4">
+                          <select title="select" class="select">
+                            <option value="1">Province</option>
+                            <option value="2">Nangroe Aceh Darussalam</option>
+                            <option value="3">North Sumatra</option>
+                            <option value="4">West Sumatra</option>
+                            <option value="5">Riau</option>
+                            <option value="6">Jambi</option>
+                            <option value="7">South Sumatra</option>
+                            <option value="8">Bengkulu</option>
+                            <option value="9">Lampung</option>
+                            <option value="10">Bangka Belitung</option>
+                            <option value="11">Riau Island</option>
+                            <option value="12">West Java</option>
+                            <option value="13">Central Java</option>
+                            <option value="14">East Java</option>
+                            <option value="15">DKI Jakarta</option>
+                            <option value="16">Banten</option>
+                            <option value="17">DI Yogyakarta</option>
+                            <option value="18">Bali</option>
+                            <option value="19">West Nusa Tenggara</option>
+                            <option value="20">East Nusa Tenggara</option>
+                            <option value="21">West Kalimantan</option>
+                            <option value="22">Central Kalimantan</option>
+                            <option value="23">South Kalimantan</option>
+                            <option value="24">East Kalimantan</option>
+                            <option value="25">North Kalimantan</option>
+                            <option value="26">North Sulawesi</option>
+                            <option value="27">Central Sulawesi</option>
+                            <option value="28">South Sulawesi</option>
+                            <option value="29">Southeast Sulawesi</option>
+                            <option value="30">West Sulawesi</option>
+                            <option value="31">Gorontalo</option>
+                            <option value="32">Maluku</option>
+                            <option value="33">North Maluku</option>
+                            <option value="34">Papua</option>
+                            <option value="35">West Papua</option>
+                          </select>
+                      </div>
+      
+                      <div class="d-md-flex justify-content-start align-items-center mb-4 py-2">
+      
+                        <h6 class="mb-0 me-4">Gender: </h6>
+      
+                        <div class="form-check form-check-inline mb-0 me-4">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="femaleGender"
+                            value="option1" />
+                          <label class="form-check-label" for="femaleGender">Female</label>
+                        </div>
+      
+                        <div class="form-check form-check-inline mb-0 me-4">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="maleGender"
+                            value="option2" />
+                          <label class="form-check-label" for="maleGender">Male</label>
+                        </div>
+      
+                        <div class="form-check form-check-inline mb-0">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="otherGender"
+                            value="option3" />
+                          <label class="form-check-label" for="otherGender">Other</label>
+                        </div>
+      
+                      </div>
+      
+                      <div class="form-outline mb-4">
+                        <input type="text" id="form3Example97" class="form-control form-control-lg" />
+                        <label class="form-label" for="form3Example97">Email ID</label>
+                      </div>
+      
+                      <div class="d-flex justify-content-end pt-3">
+                        <button type="button" class="btn btn-light btn-lg">Reset all</button>
+                        <button type="button" class="btn btn-warning btn-lg ms-2">Submit form</button>
+                      </div>
+      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
